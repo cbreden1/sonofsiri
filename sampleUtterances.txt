@@ -1,0 +1,6 @@
+OfficeHours What are professor {Professor} office hours
+OfficeHours Professor {Professor} office hours
+OfficeHours What is professor {Professor} office hours
+OfficeHours {Professor} office hours
+OfficeLocation Where can I find professor {Professor}
+OfficeLocation Where is professor {Professor} office at

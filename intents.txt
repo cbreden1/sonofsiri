@@ -1,0 +1,22 @@
+{
+"intents": [
+    {
+      "intent": "OfficeHours",
+      "slots": [
+        {
+          "name": "Professor",
+          "type": "LIST_OF_PROFESSORS"
+        }
+      ]
+    },
+   {
+     "intent": "OfficeLocation",
+     "slots": [
+       {
+         "name": "Professor",
+         "type": "LIST_OF_PROFESSORS"
+       }
+     ]
+   }
+  ]
+}
