@@ -161,17 +161,417 @@ function getOfficeLocation(intent, session, callback) {
     var speechOutput = "";
     
     switch(professorNameSlot.value){
+    case "Adali":
+    case "Adalis":
+    case "Tulay Adali":
+    case "Tulay Adalis":
+    speechOutput = "Dr. Adalis office is in I.T.E. ";
+    break;
+
+    case "Aina":
+    case "Ainas":
+    case "Yemisi Aina":
+    case "Yemisi Ainas":
+    speechOutput = "Yemisi Ainas office is in I.T.E. ";
+    break;
+
+    case "Banerjee":
+    case "Banerjees":
+    case "Nilanjan Banerjee":
+    case "Nilanjan Banerjees":
+    speechOutput = "Dr. Banerjees office is in I.T.E. ";
+    break;
+
+    case "Bargteil":
+    case "Bargteils":
+    case "Adam Bargteil":
+    case "Adam Bargteils":
+    speechOutput = "Dr. Bargteils office is in I.T.E. ";
+    break;
+
+    case "Carter":
+    case "Carters":
+    case "Gary Carter":
+    case "Gary Carters":
+    speechOutput = "Dr. Carters office is in I.T.E. ";
+    break;
+
+    case "Chein-i Chang":
+    case "Chein-i Changs":
+    speechOutput = "Dr. Chein-i Changs office is in I.T.E. ";
+    break;
+
+    case "Chang":
+    case "Changs":
+    case "Richard Chang":
+    case "Richard Changs":
+    speechOutput = "Dr. Richard Changs office is in I.T.E. ";
+    break;
+
+    case "Chen":
+    case "Chens":
+    case "Jian Chen":
+    case "Jian Chens":
+    speechOutput = "Dr. Chens office is in I.T.E. ";
+    break;
+
+    case "Chester":
+    case "Chesters":
+    case "Bob Chester":
+    case "Bob Chesters":
+    speechOutput = "Bob Chesters office is in I.T.E. ";
+    break;
+
+    case "Choa":
+    case "Choas":
+    case "Fow-Sen Choa":
+    case "Fow-Sen Choas":
+    speechOutput = "Dr. Choas office is in I.T.E. ";
+    break;
+
+    case "Desjardins":
+    case "Marie Desjardinses":
+    case "Marie Desjardins":
+    case "Marie Desjardinses":
+    speechOutput = "Dr. Desjardinses office is in I.T.E. ";
+    break;
+
+    case "Douglass":
+    case "Douglasses":
+    case "Vera Douglass":
+    case "Vera Douglasses":
+    speechOutput = "Professor Douglasses office is in I.T.E. ";
+    break;
+
+    case "Drummey":
+    case "Drummeys":
+    case "Dee Ann Drummey":
+    case "Dee Ann Drummeys":
+    speechOutput = "Dee Ann Drummeys office is in I.T.E. ";
+    break;
+
+    case "Finin":
+    case "Finins":
+    case "Tim Finin":
+    case "Tim Finins":
+    speechOutput = "Dr. Finins office is in I.T.E. ";
+    break;
+
+    case "Fliggins":
+    case "Fligginses":
+    case "Keara Fliggins":
+    case "Keara Fligginses":
+    speechOutput = "Keara Fligginses office is in I.T.E. ";
+    break;
+
+    case "Forno":
+    case "Fornos":
+    case "Richard Forno":
+    case "Richard Fornos":
+    speechOutput = "Dr. Fornos office is in I.T.E. ";
+    break;
+
+    case "Halem":
+    case "Halems":
+    case "Milton Halem":
+    case "Milton Halems":
+    speechOutput = "Dr. Halems office is in I.T.E. ";
+    break;
+
+    case "Hyman-Waters":
+    case "Hyman-Waterses":
+    case "Camilla Hyman-Waters":
+    case "Camilla Hyman-Waterses":
+    speechOutput = "Camilla Hyman-Waterses office is in I.T.E. ";
+    break;
+
+    case "Joshi":
+    case "Joshis":
+    case "Anupam Joshi":
+    case "Anupam Joshis":
+    speechOutput = "Dr. Anupam Joshis office is in I.T.E. ";
+    break;
+
+    case "Karuna Joshi":
+    case "Karuna Joshis":
+    speechOutput = "Dr. Karuna Joshis office is in I.T.E. ";
+    break;
+
+    case "Kim":
+    case "Kims":
+    case "Seung-Jun Kim":
+    case "Seung-Jun Kims":
+    speechOutput = "Professor Kims office is in I.T.E. ";
+    break;
+
+    case "Kalpakis":
+    case "Kalpakises":
+    case "Kostas Kalpakis":
+    case "Kostas Kalpakises":
+    speechOutput = "Dr. Kalpakises office is in I.T.E. ";
+    break;
+
+    case "Kim":
+    case "Kims":
+    case "Seung-Jun Kim":
+    case "Seung-Jun Kims":
+    speechOutput = "Dr. Kims office is in I.T.E. ";
+    break;
+
+    case "Laberge":
+    case "Laberges":
+    case "Charles Laberge":
+    case "Charles Laberges":
+    speechOutput = "Dr. Laberges office is in I.T.E. ";
+    break;
+
+    case "Lomonaco":
+    case "Lomonacos":
+    case "Sam Lomonaco":
+    case "Sam Lomonacos":
+	speechOutput = "Dr. Lomonacos office is in I.T.E.";
+	break;
+            
     case "Lupoli":
     case "Lupolis":
     case "Shawn Lupoli":
-	speechOutput = "Professor Lupolis office is in I.T.E. 213";
-	break;
-            
+    case "Shawn Lupolis":
+    speechOutput = "Professor Lupolis office is in I.T.E. 213";
+    break;
+
+    case "Marron":
+    case "Marrons":
+    case "Chris Marron":
+    case "Chris Marrons":
+    speechOutput = "Dr. Marrons office is in I.T.E.";
+    break;
+
+    case "Matuszek":
+    case "Matuszeks":
+    case "Cynthia Matuszek":
+    case "Cynthia Matuszeks":
+    case "M":
+    speechOutput = "Dr. Matuszeks office is in I.T.E. ";
+    break;
+
+    case "Menyuk":
+    case "Menyuks":
+    case "Curtis Menyuk":
+    case "Curtis Menyuks":
+    speechOutput = "Dr. Menyuks office is in I.T.E.";
+    break;
+
+    case "Mitchell":
+    case "Mitchells":
+    case "Susan Mitchell":
+    case "Susan Mitchells":
+    speechOutput = "Professor Mitchells office is in I.T.E.";
+    break;
+
+    case "Mohsenin":
+    case "Mohsenins":
+    case "Tinoosh Mohsenin":
+    case "Tinoosh Mohsenins":
+    speechOutput = "Dr. Menyuks office is in I.T.E.";
+    break;
+
+    case "Menyuk":
+    case "Menyuks":
+    case "Curtis Menyuk":
+    case "Curtis Menyuks":
+    speechOutput = "Professor Menyuks office is in I.T.E.";
+    break;
+
+    case "Morawski":
+    case "Morawskis":
+    case "Maksym Morawski":
+    case "Maksym Morawskis":
+    case "Max":
+    case "Maxes":
+    case "Max Morawski":
+    case "Max Morawskis":
+    speechOutput = "Maxes office is in I.T.E.";
+    break;
+
+    case "Morris":
+    case "Joel Morrises":
+    case "Joel Morris":
+    case "Joel Morrises":
+    speechOutput = "Dr. Morrises office is in I.T.E.";
+    break;
+
+    case "Nicholas":
+    case "Nicholases":
+    case "Charles Nicholas":
+    case "Charles Nicholases":
+    speechOutput = "Dr. Nicholases office is in I.T.E.";
+    break;
+
+    case "Oates":
+    case "Oateses":
+    case "Tim Oates":
+    case "Tim Oateses":
+    speechOutput = "Dr. Oateses office is in I.T.E.";
+    break;
+
+    case "Olano":
+    case "Olanos":
+    case "Marc Olano":
+    case "Marc Olanos":
+    speechOutput = "Dr. Olanos office is in I.T.E.";
+    break;
+
+    case "Park":
+    case "Parks":
+    case "John Park":
+    case "John Parks":
+    speechOutput = "Professor Parks office is in I.T.E.";
+    break;
+
+    case "Patel":
+    case "Patels":
+    case "Chintan Patel":
+    case "Chintan Patels":
+    speechOutput = "Dr. Patels office is in I.T.E.";
+    break;
+
+    case "Pearce":
+    case "Pearces":
+    case "Claudia Pearce":
+    case "Claudia Pearces":
+    speechOutput = "Professor Pearces office is in I.T.E.";
+    break;
+
+    case "Peng":
+    case "Pengs":
+    case "Yun Peng":
+    case "Yun Pengs":
+    speechOutput = "Dr. Pengs office is in I.T.E.";
+    break;
+
+    case "Phatak":
+    case "Phataks":
+    case "Dhananjay Phatak":
+    case "Dhananjay Phataks":
+    speechOutput = "Dr. Phataks office is in I.T.E.";
+    break;
+
+    case "Pinkston":
+    case "Pinkstons":
+    case "John Pinkston":
+    case "John Pinkstons":
+    speechOutput = "Dr. Pinkstons office is in I.T.E.";
+    break;
+
+    case "Pirsiavash":
+    case "Pirsiavashes":
+    case "Hamed Pirsiavash":
+    case "Hamed Pirsiavashes":
+    speechOutput = "Dr. Pirsiavashes office is in I.T.E.";
+    break;
+
+    case "Rheingans":
+    case "Rheinganses":
+    case "Penny Rheingans":
+    case "Penny Rheinganses":
+    speechOutput = "Dr. Rheinganses office is in I.T.E.";
+    break;
+
+    case "Robucci":
+    case "Robuccis":
+    case "Ryan Robucci":
+    case "Ryan Robuccis":
+    speechOutput = "Dr. Robuccis office is in I.T.E.";
+    break;
+
+    case "Sadeghian":
+    case "Sadeghians":
+    case "Pedram Sadeghian":
+    case "Pedram Sadeghians":
+    speechOutput = "Professor Sadeghians office is in I.T.E.";
+    break;
+
+    case "Schmill":
+    case "Schmills":
+    case "Matthew Schmill":
+    case "Matthew Schmills":
+    speechOutput = "Professor Schmills office is in I.T.E.";
+    break;
+
     case "Sherman":
     case "Shermans":
     case "Alan Sherman":
-	speechOutput = "Professor Shermans office is in I.T.E. 34";
+    case "Alan Shermans":
+    speechOutput = "Dr. Shermans office is in I.T.E. 34";
+    break;
+
+    case "Sidhu":
+    case "Sidhus":
+    case "Deepinder Sidhu":
+    case "Deepinder Sidhus":
+    speechOutput = "Dr. Sidhus office is in I.T.E.";
+    break;
+
+    case "Slaughter":
+    case "Slaughters":
+    case "Gymama Slaughter":
+    case "Gymama Slaughters":
+    speechOutput = "Dr. Slaughters office is in I.T.E.";
+    break;
+
+    case "Syed":
+    case "Syeds":
+    case "Zareen Syed":
+    case "Zareen Syeds":
+	speechOutput = "Professor Syeds office is in I.T.E.";
 	break;
+
+    case "Weiss":
+    case "Weisses":
+    case "Geoff Weiss":
+    case "Geoff Weisses":
+    speechOutput = "Geoff Weisses office is in I.T.E.";
+    break;
+
+    case "Wolfe":
+    case "Olivia Wolfes":
+    case "Wolfe":
+    case "Olivia Wolfes":
+    speechOutput = "Olivia Wolfes office is in I.T.E.";
+    break;
+
+    case "Yan":
+    case "Yans":
+    case "Li Yan":
+    case "Li Yans":
+    speechOutput = "Dr. Yans office is in I.T.E.";
+    break;
+
+    case "Yesha":
+    case "Yeshas":
+    case "Yaacov Yesha":
+    case "Yaacov Yeshas":
+    speechOutput = "Dr. Yaacov Yeshas office is in I.T.E. ";
+    break;
+
+    case "Yelena Yesha":
+    case "Yelena Yeshas":
+    speechOutput = "Dr. Yelena Yeshas office is in I.T.E.";
+    break;
+
+    case "Younis":
+    case "Younises":
+    case "Mohamed Younis":
+    case "Mohamed Younises":
+    speechOutput = "Dr. Younises office is in I.T.E.";
+    break;
+
+    case "Zhu":
+    case "Zhus":
+    case "Ting Zhu":
+    case "Ting Zhus":
+    speechOutput = "Dr. Zhus office is in I.T.E.";
+    break;
             
     default:
 	speechOutput = "I'm not sure which professor you said. Please try again";
@@ -207,7 +607,13 @@ function getAnswer(intent, session, callback) {
 
     case "register for a class that is full":
     case "register for a full class":
-    speechOutput = "You will need to request permission. Google CMSC UMBC Student Forms and fill out the form called, Permission to Enroll in a Closed Course.";
+    speechOutput = "You will need to request permission. Google CMSC UMBC Student Forms" +
+    "and fill out the form called, Permission to Enroll in a Closed Course.";
+    break;
+
+    case "contact a professor":
+    speechOutput = "The best way to reach them is by e-mail. Use the university" +
+    "directory at umbc.edu/search/directory";
     break;
 
     case "complain about a class":
@@ -216,7 +622,15 @@ function getAnswer(intent, session, callback) {
     case "complaint about a class":
     case "complaint about an instructor":
     case "complaint":
-    speechOutput = "First speak directly to your instructor. If you cannot come to an agreement, then contact the undergraduate program director for the course";
+    speechOutput = "First speak directly to your instructor. If you cannot come to an" +
+    "agreement, then contact the undergraduate program director for the course";
+    break;
+
+    case "my student bill":
+    case "my bill":
+    case "billing":
+    speechOutput = "You must go to Student Business Services on the third floor of" +
+    "the Administration Building.";
     break;
 
     case "permission for a class":
