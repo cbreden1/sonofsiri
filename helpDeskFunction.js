@@ -84,6 +84,9 @@ function onIntent(intentRequest, session, callback) {
     else if ("OfficeLocation" == intentName) {
         getOfficeLocation(intent, session, callback);
     }
+    else if("AskQuestion" == intentName){
+        getAnswer(intent, session, callback);
+    }
     else if ("AMAZON.HelpIntent" === intentName) {
         getWelcomeResponse(callback);
     } 
@@ -179,6 +182,56 @@ function getOfficeLocation(intent, session, callback) {
 	     buildSpeechletResponse(cardTitle, speechOutput, repromptText, shouldEndSession));
 }
 
+function getAnswer(intent, session, callback) {
+    var cardTitle = intent.name;
+    var questionNameSlot = intent.slots.Question;
+    var repromptText = "I did not understand your question.";
+    var sessionAttributes = {};
+    var shouldEndSession = false;
+    var speechOutput = "";
+    
+    switch(questionNameSlot.value){
+    case "advising office":
+    speechOutput = "The advising office is in I.T.E. 202-206";
+    break;
+
+    case "my advisor":
+    speechOutput = "The advising office can tell you who your advisor is.";
+    break;
+
+    case "card access":
+    case "card swipe access":
+    speechOutput = "Email Olivia Wolfe at OWolfe@umbc.edu. Make sure you C.C. your" +
+    "instructor or faculty member.";
+    break;
+
+    case "register for a class that is full":
+    case "register for a full class":
+    speechOutput = "You will need to request permission. Google CMSC UMBC Student Forms and fill out the form called, Permission to Enroll in a Closed Course.";
+    break;
+
+    case "complain about a class":
+    case "complain about an instructor":
+    case "complain":
+    case "complaint about a class":
+    case "complaint about an instructor":
+    case "complaint":
+    speechOutput = "First speak directly to your instructor. If you cannot come to an agreement, then contact the undergraduate program director for the course";
+    break;
+
+    case "permission for a class":
+    case "permission to enroll":
+    speechOutput = "Email Dr. Richard Chang at chang@umbc.edu.";
+    break;
+
+    default:
+    speechOutput = repromptText;
+    break;
+    }
+
+    callback(sessionAttributes,
+         buildSpeechletResponse(cardTitle, speechOutput, repromptText, shouldEndSession));
+}
 
 // --------------- Helpers that build all of the responses -----------------------
 

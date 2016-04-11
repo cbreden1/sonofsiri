@@ -13,4 +13,20 @@ OfficeLocation Where is professor {Professor} office at
 OfficeLocation Where can I find doctor {Professor}
 OfficeLocation Where is professor {Professor} office
 OfficeLocation Where is doctor {Professor} office
-AskQuestion {Question}
+AskQuestion Where is the {Question}
+AskQuestion How do I get {Question}
+AskQuestion How can I get {Question}
+AskQuestion How can I {Question}
+AskQuestion How do I {Question}
+AskQuestion Where can I {Question}
+AskQuestion Where can I make a {Question}
+AskQuestion Where can I go to make a {Question}
+AskQuestion Where can I file a {Question}
+AskQuestion Where can I go to file a {Question}
+AskQuestion Where do I go to {Question}
+AskQuestion Who is {Question}
+AskQuestion How do I find out {Question}
+AskQuestion How do I find out who {Question} is
+AskQuestion How can I find out who {Question} is
+AskQuestion How can I figure out who {Question} is
+AskQuestion How do I figure out who {Question} is

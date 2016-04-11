@@ -1,13 +1,15 @@
 OTHER_QUESTIONS
-Where is the advising office
-How do I get card swipe access
-How can I register for a class that is full
-How can I register for a full class
-I have a complaint about a class
-I have a complaint about an instructor
-Where can I go to make a complaint
-How do I get permission for a class
-How do I get permission to enroll in a class
-Who is my advisor
-How can I find out who my advisor is
-How can I figure out who my advisor is
+advising office
+card access
+card swipe access
+register for a class that is full
+register for a full class
+complain about a class
+complain about an instructor
+complain
+complaint about a class
+complaint about an instructor
+complaint
+permission for a class
+permission to enroll
+my advisor
