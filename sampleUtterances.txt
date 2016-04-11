@@ -1,6 +1,16 @@
 OfficeHours What are professor {Professor} office hours
-OfficeHours Professor {Professor} office hours
 OfficeHours What is professor {Professor} office hours
+OfficeHours When are professor {Professor} office hours
+OfficeHours What are doctor {Professor} office hours
+OfficeHours What is doctor {Professor} office hours
+OfficeHours When are doctor {Professor} office hours
+OfficeHours Professor {Professor} office hours
 OfficeHours {Professor} office hours
+OfficeHours Doctor {Professors} office hours
 OfficeLocation Where can I find professor {Professor}
+OfficeLocation Where is professor {Professor} office
 OfficeLocation Where is professor {Professor} office at
+OfficeLocation Where can I find doctor {Professor}
+OfficeLocation Where is professor {Professor} office
+OfficeLocation Where is doctor {Professor} office
+Question {Question}

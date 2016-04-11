@@ -18,5 +18,14 @@
        }
      ]
    }
+    {
+     "intent": "Question",
+     "slots": [
+       {
+         "name": "Question",
+         "type": "OTHER_QUESTIONS"
+       }
+     ]
+   }
   ]
 }
