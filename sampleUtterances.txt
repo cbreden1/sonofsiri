@@ -14,6 +14,7 @@ OfficeLocation Where can I find doctor {Professor}
 OfficeLocation Where is professor {Professor} office
 OfficeLocation Where is doctor {Professor} office
 AskQuestion Where is the {Question}
+AskQuestion How do I get to the {Question}
 AskQuestion How do I get {Question}
 AskQuestion How can I get {Question}
 AskQuestion How can I {Question}
@@ -30,3 +31,4 @@ AskQuestion How do I find out who {Question} is
 AskQuestion How can I find out who {Question} is
 AskQuestion How can I figure out who {Question} is
 AskQuestion How do I figure out who {Question} is
+AskQuestion I have a problem with {Question}

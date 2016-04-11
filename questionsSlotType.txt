@@ -4,12 +4,16 @@ card access
 card swipe access
 register for a class that is full
 register for a full class
+contact a professor
 complain about a class
 complain about an instructor
 complain
 complaint about a class
 complaint about an instructor
 complaint
+my student bill
+my bill
+billing
 permission for a class
 permission to enroll
 my advisor
