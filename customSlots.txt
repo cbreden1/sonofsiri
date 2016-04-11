@@ -1,7 +1,228 @@
 LIST_OF_PROFESSORS
+Adali
+Adalis
+Tulay Adali
+Tulay Adalis
+Aina
+Ainas
+Yemisi Aina
+Yemisi Ainas
+Banerjee
+Banerjees
+Nilanjan Banerjee
+Nilanjan Banerjees
+Bargteil
+Bargteils
+Adam Bargteil
+Adam Bargteils
+Carter
+Carters
+Gary Carter
+Gary Carters
+Chang
+Changs
+Chein-i Chang
+Chein-i Changs
+Richard Chang
+Richard Changs
+Chen
+Chens
+Jian Chen
+Jian Chens
+Chester
+Chesters
+Bob Chester
+Bob Chesters
+Choa
+Choas
+Fow-Sen Choa
+Fow-Sen Choas
+Desjardins
+Desjardinses
+Marie Desjardins
+Marie Desjardinses
+Douglass
+Douglasses
+Vera Douglass
+Vera Douglasses
+Drummey
+Drummeys
+Dee Ann Drummey
+Dee Ann Drummeys
+Finin
+Finins
+Tim Finin
+Tim Finins
+Fliggins
+Fligginses
+Keara Fliggins
+Keara Fligginses
+Forno
+Fornos
+Richard Forno
+Richard Fornos
+Halem
+Halems
+Milton Halem
+Milton Halems
+Hyman-Waters
+Hyman-Waterses
+Camilla Hyman-Waters
+Camilla Hyman-Waterses
+Joshi
+Joshis
+Anupam Joshi
+Anupam Joshis
+Karuna Joshi
+Karuna Joshis
+Kim
+Kims
+Seung-Jun Kim
+Seung-Jun Kims
+Kalpakis
+Kalpakises
+Kostas Kalpakis
+Kostas Kalpakises
+Laberge
+Laberges
+Charles Laberge
+Charles Laberges
+Lomonaco
+Lomonacos
+Sam Lomonaco
+Sam Lomonacos
 Lupoli
 Lupolis
 Shawn Lupoli
+Shawn Lupolis
+Marron
+Marrons
+Christopher Marron
+Christopher Marrons
+Matuszek
+Matuszeks
+Cynthia Matuszek
+Cynthia Matuszeks
+M
+Menyuk
+Menyuks
+Curtis Menyuk
+Curtis Menyuks
+Mitchell
+Mitchells
+Susan Mitchell
+Susan Mitchells
+Mohsenin
+Mohsenins
+Tinoosh Mohsenin
+Tinoosh Mohsenins
+Morawski
+Morawskis
+Maksym Morawski
+Maksym Morawskis
+Max
+Maxes
+Max Morawski
+Max Morawskis
+Morris
+Morrises
+Joel Morris
+Joel Morrises
+Nicholas
+Nicholases
+Charles Nicholas
+Charles Nicholases
+Oates
+Oateses
+Tim Oates
+Tim Oateses
+Olano
+Olanos
+Marc Olano
+Marc Olanos
+Park
+Parks
+John Park
+John Parks
+Patel
+Patels
+Chintan Patel
+Chintan Patels
+Pearce
+Pearces
+Claudia Pearce
+Claudia Pearces
+Peng
+Pengs
+Yun Peng
+Yun Pengs
+Phatak
+Phataks
+Dhananjay Phatak
+Dhananjay Phataks
+Pinkston
+Pinkstons
+John Pinkston
+John Pinkstons
+Pirsiavash
+Pirsiavashes
+Hamed Pirsiavash
+Hamed Pirsiavashes
+Rheingans
+Rheinganses
+Penny Rheingans
+Penny Rheinganses
+Robucci
+Robuccis
+Ryan Robucci
+Ryan Robuccis
+Sadeghian
+Sadeghians
+Pedram Sadeghian
+Pedram Sadeghians
+Schmill
+Schmills
+Matthew Schmill
+Matthew Schmills
 Sherman
 Shermans
 Alan Sherman
+Alan Shermans
+Sidhu
+Sidhus
+Deepinder Sidhu
+Deepinder Sidhus
+Slaughter
+Slaughters
+Gymama Slaughter
+Gymama Slaughters
+Syed
+Syeds
+Zareen Syed
+Zareen Syeds
+Weiss
+Weisses
+Geoff Weiss
+Geoff Weisses
+Wolfe
+Wolfes
+Olivia Wolfe
+Olivia Wolfes
+Yan
+Yans
+Li Yan
+Li Yans
+Yesha
+Yeshas
+Yaacov Yesha
+Yaacov Yeshas
+Yelena Yesha
+Yelena Yeshas
+Younis
+Younises
+Mohamed Younis
+Mohamed Younises
+Zhu
+Zhus
+Ting Zhu
+Ting Zhus
