@@ -19,7 +19,7 @@
      ]
    },
     {
-     "intent": "Question",
+     "intent": "AskQuestion",
      "slots": [
        {
          "name": "Question",
