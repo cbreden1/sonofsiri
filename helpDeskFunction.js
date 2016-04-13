@@ -111,11 +111,10 @@ function getWelcomeResponse(callback) {
     // If we wanted to initialize the session to have some attributes we could add those here.
     var sessionAttributes = {};
     var cardTitle = "Welcome";
-    var speechOutput = "Welcome to the Alexa help desk. " +
-        "Please ask me a question such as, what are my professor's office hours";
+    var speechOutput = "Please ask me a question such as, what are professor X's office hours";
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
-    var repromptText = "Please ask me, what are my professor's office hours";
+    var repromptText = "Please ask a question.";
     var shouldEndSession = false;
 
     callback(sessionAttributes,
@@ -125,7 +124,7 @@ function getWelcomeResponse(callback) {
 function getOfficeHours(intent, session, callback) {
     var cardTitle = intent.name;
     var professorNameSlot = intent.slots.Professor;
-    var repromptText = "I'm not sure which professor you said. Please try again";
+    var repromptText = "Please repeat your question.";
     var sessionAttributes = {};
     var shouldEndSession = false;
     var speechOutput = "";
@@ -155,7 +154,7 @@ function getOfficeHours(intent, session, callback) {
 function getOfficeLocation(intent, session, callback) {
     var cardTitle = intent.name;
     var professorNameSlot = intent.slots.Professor;
-    var repromptText = "I'm not sure which professor you said. Please try again";
+    var repromptText = "Please repeat your question.";
     var sessionAttributes = {};
     var shouldEndSession = false;
     var speechOutput = "";
@@ -212,7 +211,7 @@ function getOfficeLocation(intent, session, callback) {
     case "Chens":
     case "Jian Chen":
     case "Jian Chens":
-    speechOutput = "Dr. Chens office is in I.T.E. 357";
+    speechOutput = "Dr. Ch ens office is in I.T.E. 357";
     break;
 
     case "Chester":
@@ -397,7 +396,7 @@ function getOfficeLocation(intent, session, callback) {
     case "Oateses":
     case "Tim Oates":
     case "Tim Oateses":
-    speechOutput = "Dr. Oateses office is in I.T.E. 336";
+    speechOutput = "Dr. Oates is office is in I.T.E. 336";
     break;
 
     case "Olano":
@@ -571,14 +570,14 @@ function getOfficeLocation(intent, session, callback) {
 function getAnswer(intent, session, callback) {
     var cardTitle = intent.name;
     var questionNameSlot = intent.slots.Question;
-    var repromptText = "I did not understand your question.";
+    var repromptText = "Please repeat your question.";
     var sessionAttributes = {};
     var shouldEndSession = false;
     var speechOutput = "";
     
     switch(questionNameSlot.value){
     case "advising office":
-    speechOutput = "The advising office is in I.T.E. 202-206";
+    speechOutput = "The advising office is in I.T.E. 202 through 206";
     break;
 
     case "my advisor":
@@ -587,19 +586,19 @@ function getAnswer(intent, session, callback) {
 
     case "card access":
     case "card swipe access":
-    speechOutput = "Email Olivia Wolfe at OWolfe@umbc.edu. Make sure you C.C. your" +
+    speechOutput = "Email Olivia Wolfe at O Wolfe@UMBC dot E.D.U., Make sure you C.C. your" +
     "instructor or faculty member.";
     break;
 
     case "register for a class that is full":
     case "register for a full class":
-    speechOutput = "You will need to request permission. Google CMSC UMBC Student Forms" +
-    "and fill out the form called, Permission to Enroll in a Closed Course.";
+    speechOutput = "You will need to request permission. Google CMSC UMBC Student Forms," +
+    "and fill out the form called, Permission to Enroll, in a Closed Course.";
     break;
 
     case "contact a professor":
     speechOutput = "The best way to reach them is by e-mail. Use the university" +
-    "directory at umbc.edu/search/directory";
+    "directory at U.M.B.C. dot E.D.U /search/directory";
     break;
 
     case "complain about a class":
@@ -615,13 +614,13 @@ function getAnswer(intent, session, callback) {
     case "my student bill":
     case "my bill":
     case "billing":
-    speechOutput = "You must go to Student Business Services on the third floor of" +
+    speechOutput = "You must go to Student Business Services on the third floor ove" +
     "the Administration Building.";
     break;
 
     case "permission for a class":
     case "permission to enroll":
-    speechOutput = "Email Dr. Richard Chang at chang@umbc.edu.";
+    speechOutput = "Email Dr. Richard Chang at, chang@UMBC dot E.D.U.";
     break;
 
     default:

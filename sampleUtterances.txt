@@ -8,11 +8,14 @@ OfficeHours Professor {Professor} office hours
 OfficeHours {Professor} office hours
 OfficeHours Doctor {Professor} office hours
 OfficeLocation Where can I find professor {Professor}
-OfficeLocation Where is professor {Professor} office
-OfficeLocation Where is professor {Professor} office at
 OfficeLocation Where can I find doctor {Professor}
+OfficeLocation Where can I find {Professor}
 OfficeLocation Where is professor {Professor} office
 OfficeLocation Where is doctor {Professor} office
+OfficeLocation Where is {Professor} office
+OfficeLocation Where is professor {Professor}
+OfficeLocation Where is doctor {Professor}
+OfficeLocation Where is {Professor}
 AskQuestion Where is the {Question}
 AskQuestion How do I get to the {Question}
 AskQuestion How do I get {Question}
