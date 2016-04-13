@@ -78,11 +78,8 @@ function onIntent(intentRequest, session, callback) {
         intentName = intentRequest.intent.name;
 
     // Dispatch to your skill's intent handlers
-    if ("OfficeHours" == intentName) {
-        getOfficeHours(intent, session, callback);
-    }
-    else if ("OfficeLocation" == intentName) {
-        getOfficeLocation(intent, session, callback);
+    if ("OfficeInfo" == intentName) {
+        getOfficeInfo(intent, session, callback);
     }
     else if("AskQuestion" == intentName){
         getAnswer(intent, session, callback);
@@ -121,37 +118,7 @@ function getWelcomeResponse(callback) {
 	     buildSpeechletResponse(cardTitle, speechOutput, repromptText, shouldEndSession));
 }
 
-function getOfficeHours(intent, session, callback) {
-    var cardTitle = intent.name;
-    var professorNameSlot = intent.slots.Professor;
-    var repromptText = "Please repeat your question.";
-    var sessionAttributes = {};
-    var shouldEndSession = false;
-    var speechOutput = "";
-    
-    switch(professorNameSlot.value){
-    case "Lupoli":
-    case "Lupolis":
-    case "Shawn Lupoli":
-	speechOutput = "Professor Lupolis office hours are. monday and wednesday from 2 to 3 pm";
-	break;
-            
-    case "Sherman":
-    case "Shermans":
-    case "Alan Sherman":
-	speechOutput = "Professor Shermans office hours are. tuesday and thursday from 10 to 11 am";
-	break;
-            
-    default:
-	speechOutput = "I'm not sure which professor you said. Please try again";
-	break;
-    }
-
-    callback(sessionAttributes,
-	     buildSpeechletResponse(cardTitle, speechOutput, repromptText, shouldEndSession));
-}
-
-function getOfficeLocation(intent, session, callback) {
+function getOfficeInfo(intent, session, callback) {
     var cardTitle = intent.name;
     var professorNameSlot = intent.slots.Professor;
     var repromptText = "Please repeat your question.";
@@ -164,47 +131,47 @@ function getOfficeLocation(intent, session, callback) {
     case "Adalis":
     case "Tulay Adali":
     case "Tulay Adalis":
-    speechOutput = "Dr. Adalis office is in I.T.E. 324";
+    speechOutput = "Dr. Adalis office is in I.T.E. 324.";
     break;
 
     case "Aina":
     case "Ainas":
     case "Yemisi Aina":
     case "Yemisi Ainas":
-    speechOutput = "Yemisi Ainas office is in I.T.E. 325E";
+    speechOutput = "Yemisi Ainas office is in I.T.E. 325E.";
     break;
 
     case "Banerjee":
     case "Banerjees":
     case "Nilanjan Banerjee":
     case "Nilanjan Banerjees":
-    speechOutput = "Dr. Banerjees office is in I.T.E. 362";
+    speechOutput = "Dr. Banerjees office is in I.T.E. 362.";
     break;
 
     case "Bargteil":
     case "Bargteils":
     case "Adam Bargteil":
     case "Adam Bargteils":
-    speechOutput = "Dr. Bargteils office is in I.T.E. 341";
+    speechOutput = "Dr. Bargteils office is in I.T.E. 341.";
     break;
 
     case "Carter":
     case "Carters":
     case "Gary Carter":
     case "Gary Carters":
-    speechOutput = "Dr. Carters office is in I.T.E. 308";
+    speechOutput = "Dr. Carters office is in I.T.E. 308.";
     break;
 
     case "Chein-i Chang":
     case "Chein-i Changs":
-    speechOutput = "Dr. Chein-i Changs office is in I.T.E. 310";
+    speechOutput = "Dr. Chein-i Changs office is in I.T.E. 310.";
     break;
 
     case "Chang":
     case "Changs":
     case "Richard Chang":
     case "Richard Changs":
-    speechOutput = "Dr. Richard Changs office is in I.T.E. 326";
+    speechOutput = "Dr. Richard Changs office is in I.T.E. 326.";
     break;
 
     case "Chen":

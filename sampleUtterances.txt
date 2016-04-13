@@ -1,21 +1,21 @@
-OfficeHours What are professor {Professor} office hours
-OfficeHours What is professor {Professor} office hours
-OfficeHours When are professor {Professor} office hours
-OfficeHours What are doctor {Professor} office hours
-OfficeHours What is doctor {Professor} office hours
-OfficeHours When are doctor {Professor} office hours
-OfficeHours Professor {Professor} office hours
-OfficeHours {Professor} office hours
-OfficeHours Doctor {Professor} office hours
-OfficeLocation Where can I find professor {Professor}
-OfficeLocation Where can I find doctor {Professor}
-OfficeLocation Where can I find {Professor}
-OfficeLocation Where is professor {Professor} office
-OfficeLocation Where is doctor {Professor} office
-OfficeLocation Where is {Professor} office
-OfficeLocation Where is professor {Professor}
-OfficeLocation Where is doctor {Professor}
-OfficeLocation Where is {Professor}
+OfficeInfo What are professor {Professor} office hours
+OfficeInfo What is professor {Professor} office hours
+OfficeInfo When are professor {Professor} office hours
+OfficeInfo What are doctor {Professor} office hours
+OfficeInfo What is doctor {Professor} office hours
+OfficeInfo When are doctor {Professor} office hours
+OfficeInfo Professor {Professor} office hours
+OfficeInfo {Professor} office hours
+OfficeInfo Doctor {Professor} office hours
+OfficeInfo Where can I find professor {Professor}
+OfficeInfo Where can I find doctor {Professor}
+OfficeInfo Where can I find {Professor}
+OfficeInfo Where is professor {Professor} office
+OfficeInfo Where is doctor {Professor} office
+OfficeInfo Where is {Professor} office
+OfficeInfo Where is professor {Professor}
+OfficeInfo Where is doctor {Professor}
+OfficeInfo Where is {Professor}
 AskQuestion Where is the {Question}
 AskQuestion How do I get to the {Question}
 AskQuestion How do I get {Question}

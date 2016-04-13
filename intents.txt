@@ -1,7 +1,7 @@
 {
 "intents": [
     {
-      "intent": "OfficeHours",
+      "intent": "OfficeInfo",
       "slots": [
         {
           "name": "Professor",
@@ -9,15 +9,6 @@
         }
       ]
     },
-   {
-     "intent": "OfficeLocation",
-     "slots": [
-       {
-         "name": "Professor",
-         "type": "LIST_OF_PROFESSORS"
-       }
-     ]
-   },
     {
      "intent": "AskQuestion",
      "slots": [

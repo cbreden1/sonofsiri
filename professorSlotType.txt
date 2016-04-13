@@ -1,4 +1,3 @@
-LIST_OF_PROFESSORS
 Adali
 Adalis
 Tulay Adali
@@ -103,7 +102,7 @@ Matuszek
 Matuszeks
 Cynthia Matuszek
 Cynthia Matuszeks
-M
+m
 Menyuk
 Menyuks
 Curtis Menyuk

@@ -1,4 +1,3 @@
-OTHER_QUESTIONS
 advising office
 card access
 card swipe access
