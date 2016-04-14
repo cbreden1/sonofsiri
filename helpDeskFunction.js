@@ -760,12 +760,15 @@ function getAnswer(intent, session, callback) {
     speechOutput = "The advising office is in I.T.E. 202 through 206";
     break;
 
-    case "my advisor":
+    case "my adviser":
     speechOutput = "The advising office can tell you who your advisor is.";
     break;
 
     case "card access":
     case "card swipe access":
+    case "lab access":
+    case "the lab":
+    case "a lab":
     speechOutput = "Email Olivia Wolfe at O Wolfe@UMBC dot E.D.U., Make sure you C.C. your" +
     "instructor or faculty member.";
     break;

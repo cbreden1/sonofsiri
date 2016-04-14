@@ -13,6 +13,9 @@ OfficeInfo Where can I find {Professor}
 OfficeInfo Where is professor {Professor} office
 OfficeInfo Where is doctor {Professor} office
 OfficeInfo Where is {Professor} office
+OfficeInfo Where is professor {Professor} office located
+OfficeInfo Where is doctor {Professor} office located
+OfficeInfo Where is {Professor} office located
 OfficeInfo Where is professor {Professor}
 OfficeInfo Where is doctor {Professor}
 OfficeInfo Where is {Professor}
@@ -22,6 +25,8 @@ AskQuestion How do I get {Question}
 AskQuestion How can I get {Question}
 AskQuestion How can I {Question}
 AskQuestion How do I {Question}
+AskQuestion How can I get into {Question}
+AskQuestion How can I get access to {Question}
 AskQuestion Where can I {Question}
 AskQuestion Where can I make a {Question}
 AskQuestion Where can I go to make a {Question}
@@ -29,9 +34,16 @@ AskQuestion Where can I file a {Question}
 AskQuestion Where can I go to file a {Question}
 AskQuestion Where do I go to {Question}
 AskQuestion Who is {Question}
+AskQuestion Who can help me with {Question}
+AskQuestion Who can I contact about {Question}
 AskQuestion How do I find out {Question}
 AskQuestion How do I find out who {Question} is
 AskQuestion How can I find out who {Question} is
 AskQuestion How can I figure out who {Question} is
 AskQuestion How do I figure out who {Question} is
 AskQuestion I have a problem with {Question}
+AskQuestion Who can I speak to about {Question}
+AskQuestion What should I do about {Question}
+AskQuestion How can I enter {Question}
+AskQuestion How can I handle {Question}
+AskQuestion I am having trouble with {Question}

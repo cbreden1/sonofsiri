@@ -1,6 +1,9 @@
 advising office
 card access
 card swipe access
+lab access
+the lab
+a lab
 register for a class that is full
 register for a full class
 contact a professor
@@ -15,4 +18,4 @@ my bill
 billing
 permission for a class
 permission to enroll
-my advisor
+my adviser
