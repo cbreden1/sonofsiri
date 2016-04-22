@@ -1,0 +1,28 @@
+Here's what we'll need to show for a video for future developers:
+
+-Open the text file of links that we will provide.
+
+
+-Create Amazon Developer Account
+-Create Lambda Account
+-Explain the dynamic between the two sites
+
+-Create function in Lambda and paste code from GitHub
+
+-Create a skill in Amazon Development Console, and paste all info from GitHub
+
+-Show all code and explain everything:
+(Javascript code, schema, utterances, lists of profs and other questions)
+
+-Show test data and explain issues we encountered:
+--Professor names not recognized
+--Home Cards not useful
+
+
+-------
+Links to Paste:
+
+-Amazon Development Console
+-Lambda Management Console
+-GitHub
+-Test Results
