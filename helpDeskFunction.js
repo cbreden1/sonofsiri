@@ -170,14 +170,14 @@ function getOfficeInfo(intent, session, callback) {
     case "Bucks":
     case "Holly Buck":
     case "Holly Bucks":
-    speechOutput = "Holly Buck has no office hours on file.";
+    speechOutput = "Holly Buck has no office or office hours on file.";
     break;
 
     case "Cain":
     case "Cains":
     case "Russ Cain":
     case "Russ Cains":
-    speechOutput = "Russ Cain has no office hours on file.";
+    speechOutput = "Russ Cain has no office or office hours on file.";
     break;
 
     case "Carter":
@@ -250,7 +250,7 @@ function getOfficeInfo(intent, session, callback) {
     case "Dorbands":
     case "John Dorband":
     case "John Dorbands":
-    speechOutput = "Dr. Dorband has no office hours on file.";
+    speechOutput = "Dr. Dorband has no office or office hours on file.";
     break;
 
     case "Douglass":
@@ -320,7 +320,7 @@ function getOfficeInfo(intent, session, callback) {
     case "Hirsches":
     case "Katie Hirsch":
     case "Katie Hirsches":
-    speechOutput = "Katie Hirsch has no office hours on file.";
+    speechOutput = "Katie Hirsch has no office or office hours on file.";
     break;
 
     case "Hyman-Waters":
@@ -361,7 +361,7 @@ function getOfficeInfo(intent, session, callback) {
     case "Kashyaps":
     case "Abhay Kashyap":
     case "Abhay Kashyaps":
-    speechOutput = "Abhay Kashyap has no office hours on file.";
+    speechOutput = "Abhay Kashyap has no office or office hours on file.";
     break;
 
     case "Kim":
@@ -483,7 +483,7 @@ function getOfficeInfo(intent, session, callback) {
     case "Mike Noveys":
     case "Michael Novey":
     case "Michael Noveys":
-    speechOutput = "Mike Novey has no office hours on file.";
+    speechOutput = "Mike Novey has no office or office hours on file.";
     break;
 
     case "Oates":
@@ -629,7 +629,7 @@ function getOfficeInfo(intent, session, callback) {
     case "Simons":
     case "Tyler Simon":
     case "Tyler Simons":
-    speechOutput = "Dr. Simon has no office hours on file.";
+    speechOutput = "Dr. Simon has no office or office hours on file.";
     break;
 
     case "Slaughter":
@@ -644,7 +644,7 @@ function getOfficeInfo(intent, session, callback) {
     case "Smalkins":
     case "Fred Smalkin":
     case "Fred Smalkins":
-    speechOutput = "Fred Smalkin has no office hours on file.";
+    speechOutput = "Fred Smalkin has no office or office hours on file.";
     break;
 
     case "Squire":
@@ -686,7 +686,7 @@ function getOfficeInfo(intent, session, callback) {
     case "Wileses":
     case "Andrew Wiles":
     case "Andrew Wileses":
-    speechOutput = "Andrew Wiles has no office hours on file.";
+    speechOutput = "Andrew Wiles has no office or office hours on file.";
     break;
 
     case "Wolfe":
