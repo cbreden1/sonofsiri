@@ -739,12 +739,12 @@ function getOfficeInfo(intent, session, callback) {
     break;
  
     default:
-	speechOutput = "Please repeat your question.";
+	speechOutput = repromptText;
 	break;
     }
 
     callback(sessionAttributes,
-	     buildSpeechletResponse(cardTitle, speechOutput, repromptText, shouldEndSession));
+	     buildSpeechletResponseOffice(cardTitle, speechOutput, repromptText, shouldEndSession));
 }
 
 function getAnswer(intent, session, callback) {
@@ -836,6 +836,31 @@ function buildSpeechletResponse(title, output, repromptText, shouldEndSession) {
         },
 	    shouldEndSession: shouldEndSession
 	    };
+}
+
+function buildSpeechletResponseOffice(title, output, repromptText, shouldEndSession) {
+    return {
+        outputSpeech: {
+            type: "PlainText",
+        text: output
+        },
+        card: {
+            type: "Standard",
+            title: "ITE Building",
+            text: "Map of the 3rd floor",
+            image: {
+                smallImageUrl: "https://i.imgur.com/uVJHCWh.jpg",
+                largeImageUrl: "https://i.imgur.com/n3uybE8.jpg"
+            }
+        },
+        reprompt: {
+            outputSpeech: {
+                type: "PlainText",
+            text: repromptText
+            }
+        },
+        shouldEndSession: shouldEndSession
+        };
 }
 
 function buildResponse(sessionAttributes, speechletResponse) {
