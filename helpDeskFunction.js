@@ -127,7 +127,7 @@ function getOfficeInfo(intent, session, callback) {
     var speechOutput = "";
 
     // Strip professor name of non-alphabetic characters
-    var strippedProf = professorNameSlot.value.replace( /[^a-zA-Z]/, ""); // ( ͡° ͜ʖ ͡°) quite the variable name eh?
+    var strippedProf = professorNameSlot.value.replace( /[^a-zA-Z\s]/, ""); // ( ͡° ͜ʖ ͡°) quite the variable name eh?
     var lowercaseProf = strippedProf.toLowerCase();
     
     switch(lowercaseProf){
