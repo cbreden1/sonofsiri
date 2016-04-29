@@ -127,36 +127,36 @@ function getOfficeInfo(intent, session, callback) {
     var speechOutput = "";
 
     // Strip professor name of non-alphabetic characters
-    var strippedProf = professorNameSlot.value.replace( /[^a-zA-Z\s]/, ""); // ( ͡° ͜ʖ ͡°) quite the variable name eh?
+    var strippedProf = professorNameSlot.value.replace( /[^a-zA-Z]/, ""); // ( ͡° ͜ʖ ͡°) quite the variable name eh?
     var lowercaseProf = strippedProf.toLowerCase();
     
     switch(lowercaseProf){
     case "adali":
     case "adalis":
-    case "tulay adali":
-    case "tulay adalis":
+    case "tulayadali":
+    case "tulayadalis":
     speechOutput = "Dr. Adalis office is in I.T.E. 324." + 
     "Office hours are, tuesday 515-615pm.";
     break;
 
     case "aina":
     case "ainas":
-    case "yemisi aina":
-    case "yemisi ainas":
+    case "yemisiaina":
+    case "yemisiainas":
     speechOutput = "Yemisi Ainas office is in I.T.E. 325 E. but has no office hours on file.";
     break;
 
     case "banerjee":
     case "banerjees":
-    case "nilanjan banerjee":
-    case "nilanjan banerjees":
+    case "nilanjanbanerjee":
+    case "nilanjanbanerjees":
     speechOutput = "Dr. Banerjees office is in I.T.E. 362 but has no office hours on file.";
     break;
 
     case "bargteil":
     case "bargteils":
-    case "adam bargteil":
-    case "adam bargteils":
+    case "adambargteil":
+    case "adambargteils":
     speechOutput = "Dr. Bargteils office is in I.T.E. 341." + 
     "Office hours are, monday 230-430pm.";
     break;
