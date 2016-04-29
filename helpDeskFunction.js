@@ -131,6 +131,10 @@ function getOfficeInfo(intent, session, callback) {
     var lowercaseProf = strippedProf.toLowerCase();
     
     switch(lowercaseProf){
+    case "adali":
+    case "adalis":
+    case "tulay adali":
+    case "tulay adalis":
     case "Adali":
     case "Adalis":
     case "Tulay Adali":
