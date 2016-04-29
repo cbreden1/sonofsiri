@@ -365,7 +365,7 @@ function getOfficeInfo(intent, session, callback) {
     case "kashyaps":
     case "abhay kashyap":
     case "abhay kashyaps":
-    speechOutput = "Abhay Kashyap has no office or office hours on file. but has no office hours on file";
+    speechOutput = "Abhay Kashyap has no office or office hours on file.";
     break;
 
     case "kim":
