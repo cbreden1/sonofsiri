@@ -618,7 +618,7 @@ function getOfficeInfo(intent, session, callback) {
     case "shooks":
     case "adam shook":
     case "adam shooks":
-    speechoutput = "Adam Shooks office hours are, tuesday and thursday 6-7pm in I.T.E. 374.";
+    speechOutput = "Adam Shooks office hours are, tuesday and thursday 6-7pm in I.T.E. 374.";
     break;
 
     case "sidhu":
