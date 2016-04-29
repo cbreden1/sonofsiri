@@ -448,297 +448,297 @@ function getOfficeInfo(intent, session, callback) {
     speechOutput = "Professor Mitchells office is in I.T.E. 214. but has no office hours on file";
     break;
 
-    case "Mohsenin":
-    case "Mohsenins":
-    case "Tinoosh Mohsenin":
-    case "Tinoosh Mohsenins":
+    case "mohsenin":
+    case "mohsenins":
+    case "tinoosh mohsenin":
+    case "tinoosh mohsenins":
     speechOutput = "Dr. Menyuks office is in I.T.E. 323. but has no office hours on file";
     break;
 
-    case "Morawski":
-    case "Morawskis":
-    case "Maksym Morawski":
-    case "Maksym Morawskis":
-    case "Max":
-    case "Maxes":
-    case "Max Morawski":
-    case "Max Morawskis":
+    case "morawski":
+    case "morawskis":
+    case "maksym morawski":
+    case "maksym morawskis":
+    case "max":
+    case "maxes":
+    case "max morawski":
+    case "max morawskis":
     speechOutput = "Maxes office is in I.T.E. 215. but has no office hours on file";
     break;
 
-    case "Morris":
-    case "Morrises":
-    case "Joel Morris":
-    case "Joel Morrises":
+    case "morris":
+    case "morrises":
+    case "joel morris":
+    case "joel morrises":
     speechOutput = "Dr. Morrises office is in I.T.E. 308. but has no office hours on file";
     break;
 
-    case "Nicholas":
-    case "Nicholases":
-    case "Charles Nicholas":
-    case "Charles Nicholases":
+    case "nicholas":
+    case "nicholases":
+    case "charles nicholas":
+    case "charles nicholases":
     speechOutput = "Dr. Nicholases office is in I.T.E. 356." +
     "Office hours are, tuesday and thursday 2-3pm";
     break;
 
-    case "Novey":
-    case "Noveys":
-    case "Mike Novey":
-    case "Mike Noveys":
-    case "Michael Novey":
-    case "Michael Noveys":
+    case "novey":
+    case "noveys":
+    case "mike novey":
+    case "mike noveys":
+    case "michael novey":
+    case "michael noveys":
     speechOutput = "Mike Novey has no office or office hours on file.";
     break;
 
-    case "Oates":
-    case "Oateses":
-    case "Tim Oates":
-    case "Tim Oateses":
+    case "oates":
+    case "oateses":
+    case "tim oates":
+    case "tim oateses":
     speechOutput = "Dr. Oates is office is in I.T.E. 336. but has no office hours on file";
     break;
 
-    case "Olano":
-    case "Olanos":
-    case "Marc Olano":
-    case "Marc Olanos":
+    case "olano":
+    case "olanos":
+    case "marc olano":
+    case "marc olanos":
     speechOutput = "Dr. Olanos office is in I.T.E. 354." +
     "Office hours are, tuesday and thursday 4-5pm";
     break;
 
-    case "Park":
-    case "Parks":
-    case "John Park":
-    case "John Parks":
+    case "park":
+    case "parks":
+    case "john park":
+    case "john parks":
     speechOutput = "Professor Parks office is in I.T.E. 207." +
     "Office hours are, tuesday 4-5pm, and, wednesday 2-3 pm";
     break;
 
-    case "Patel":
-    case "Patels":
-    case "Chintan Patel":
-    case "Chintan Patels":
+    case "patel":
+    case "patels":
+    case "chintan patel":
+    case "chintan patels":
     speechOutput = "Dr. Patels office is in I.T.E. 322. but has no office hours on file";
     break;
 
-    case "Pearce":
-    case "Pearces":
-    case "Claudia Pearce":
-    case "Claudia Pearces":
+    case "pearce":
+    case "pearces":
+    case "claudia pearce":
+    case "claudia pearces":
     speechOutput = "Professor Pearces office is in I.T.E. 373. but has no office hours on file";
     break;
 
-    case "Peng":
-    case "Pengs":
-    case "Yun Peng":
-    case "Yun Pengs":
+    case "peng":
+    case "pengs":
+    case "yun peng":
+    case "yun pengs":
     speechOutput = "Dr. Pengs office is in I.T.E. 327. but has no office hours on file.";
     break;
 
-    case "Perry":
-    case "Perrys":
-    case "Alexander Perry":
-    case "Alexander Perrys":
+    case "perry":
+    case "perrys":
+    case "alexander perry":
+    case "alexander perrys":
     speechOutput = "Alexander Perrys office hours are, monday and wednesday 6:45-7:45pm.";
     break;
 
-    case "Phatak":
-    case "Phataks":
-    case "Dhananjay Phatak":
-    case "Dhananjay Phataks":
+    case "phatak":
+    case "phataks":
+    case "dhananjay phatak":
+    case "dhananjay phataks":
     speechOutput = "Dr. Phataks office is in I.T.E. 319." +
     "Office hours are, tuesday 11am to 1, and, 4-6pm for C.M.S.C. 203.";
     break;
 
-    case "Pinkston":
-    case "Pinkstons":
-    case "John Pinkston":
-    case "John Pinkstons":
+    case "pinkston":
+    case "pinkstons":
+    case "john pinkston":
+    case "john pinkstons":
     speechOutput = "Dr. Pinkstons office is in I.T.E. 327. but has no office hours on file.";
     break;
 
-    case "Pirsiavash":
-    case "Pirsiavashes":
-    case "Hamed Pirsiavash":
-    case "Hamed Pirsiavashes":
+    case "pirsiavash":
+    case "pirsiavashes":
+    case "hamed pirsiavash":
+    case "hamed pirsiavashes":
     speechOutput = "Dr. Pirsiavashes office is in I.T.E. 342." +
     "Office hours are, tuesday 2:15-3:15pm";
     break;
 
-    case "Ray":
-    case "Rays":
-    case "George Ray":
-    case "George Rays":
+    case "ray":
+    case "rays":
+    case "george ray":
+    case "george rays":
     speechOutput = "George Rays office hours are, monday and wednesday 4:55-5:25pm in I.T.E. 374.";
     break;
 
-    case "Rheingans":
-    case "Rheinganses":
-    case "Penny Rheingans":
-    case "Penny Rheinganses":
+    case "rheingans":
+    case "rheinganses":
+    case "renny rheingans":
+    case "penny rheinganses":
     speechOutput = "Dr. Rheinganses office is in I.T.E. 355. but has no office hours on file.";
     break;
 
-    case "Robucci":
-    case "Robuccis":
-    case "Ryan Robucci":
-    case "Ryan Robuccis":
+    case "robucci":
+    case "robuccis":
+    case "ryan robucci":
+    case "ryan robuccis":
     speechOutput = "Dr. Robuccis office is in I.T.E. 316. but has no office hours on file.";
     break;
 
-    case "Sadeghian":
-    case "Sadeghians":
-    case "Pedram Sadeghian":
-    case "Pedram Sadeghians":
+    case "sadeghian":
+    case "sadeghians":
+    case "pedram sadeghian":
+    case "pedram sadeghians":
     speechOutput = "Professor Sadeghians office is in I.T.E. 208. but has no office hours on file.";
     break;
 
-    case "Schmill":
-    case "Schmills":
-    case "Matthew Schmill":
-    case "Matthew Schmills":
+    case "schmill":
+    case "schmills":
+    case "matthew schmill":
+    case "matthew schmills":
     speechOutput = "Professor Schmills office is in I.T.E. 350. but has no office hours on file.";
     break;
 
-    case "Sebald":
-    case "Sebalds":
-    case "Lawrence Sebald":
-    case "Lawrence Sebalds":
+    case "sebald":
+    case "sebalds":
+    case "lawrence sebald":
+    case "lawrence sebalds":
     speechOutput = "Lawrence Sebalds office hours are, tuesday and thursday 12:45-1:45pm. but has no office location on file";
     break;
 
-    case "Sherman":
-    case "Shermans":
-    case "Alan Sherman":
-    case "Alan Shermans":
+    case "sherman":
+    case "shermans":
+    case "alan sherman":
+    case "alan shermans":
     speechOutput = "Dr. Shermans office is in I.T.E. 224." +
     "Office hours are, wednesday 9-10am.";
     break;
 
-    case "Shook":
-    case "Shooks":
-    case "Adam Shook":
-    case "Adam Shooks":
-    speechOutput = "Adam Shooks office hours are, tuesday and thursday 6-7pm in I.T.E. 374.";
+    case "shook":
+    case "shooks":
+    case "adam shook":
+    case "adam shooks":
+    speechoutput = "Adam Shooks office hours are, tuesday and thursday 6-7pm in I.T.E. 374.";
     break;
 
-    case "Sidhu":
-    case "Sidhus":
-    case "Deepinder Sidhu":
-    case "Deepinder Sidhus":
+    case "sidhu":
+    case "sidhus":
+    case "deepinder sidhu":
+    case "deepinder sidhus":
     speechOutput = "Dr. Sidhus office is in I.T.E. 347." +
     "Office hours are, tuesday and thursday 3:15-4pm.";
     break;
 
-    case "Simon":
-    case "Simons":
-    case "Tyler Simon":
-    case "Tyler Simons":
+    case "simon":
+    case "simons":
+    case "tyler simon":
+    case "tyler simons":
     speechOutput = "Dr. Simon has no office or office hours on file.";
     break;
 
-    case "Slaughter":
-    case "Slaughters":
-    case "Gymama Slaughter":
-    case "Gymama Slaughters":
+    case "slaughter":
+    case "slaughters":
+    case "gymama slaughter":
+    case "gymama slaughters":
     speechOutput = "Dr. Slaughters office is in I.T.E. 311." +
     "Office hours are, monday and wednesday 11am to noon.";
     break;
 
-    case "Smalkin":
-    case "Smalkins":
-    case "Fred Smalkin":
-    case "Fred Smalkins":
+    case "smalkin":
+    case "smalkins":
+    case "fred smalkin":
+    case "fred smalkins":
     speechOutput = "Fred Smalkin has no office or office hours on file.";
     break;
 
-    case "Squire":
-    case "Squires":
-    case "Jon Squire":
-    case "Jon Squires":
+    case "squire":
+    case "squires":
+    case "jon squire":
+    case "jon squires":
     speechOutput = "Jon Squires office hours are, tuesday and thursday 2:30-3:45pm in I.T.E. 226.";
     break;
 
-    case "Syed":
-    case "Syeds":
-    case "Zareen Syed":
-    case "Zareen Syeds":
+    case "syed":
+    case "syeds":
+    case "zareen syed":
+    case "zareen syeds":
 	speechOutput = "Professor Syeds office is in I.T.E. 301. but has no office hours on file.";
 	break;
 
-    case "Tang":
-    case "Tangs":
-    case "Jason Tang":
-    case "Jason Tangs":
+    case "tang":
+    case "tangs":
+    case "jason tang":
+    case "jason tangs":
     speechOutput = "Jason Tangs office hours are, tuesday and thursday 7-8pm. but has no office location on file";
     break;
 
-    case "Tompkins":
-    case "Tompkinses":
-    case "Gerald Tompkins":
-    case "Gerald Tompkinses":
+    case "tompkins":
+    case "tompkinses":
+    case "gerald tompkins":
+    case "gerald tompkinses":
     speechOutput = "Gerald Tompkinses office hours are, tuesday and thursday 6:10-7:10pm. but has no office location on file";
     break;
 
-    case "Weiss":
-    case "Weisses":
-    case "Geoff Weiss":
-    case "Geoff Weisses":
+    case "weiss":
+    case "weisses":
+    case "geoff weiss":
+    case "geoff weisses":
     speechOutput = "Geoff Weisses office is in I.T.E. 302. but has no office hours on file";
     break;
 
-    case "Wiles":
-    case "Wileses":
-    case "Andrew Wiles":
-    case "Andrew Wileses":
+    case "wiles":
+    case "wileses":
+    case "andrew wiles":
+    case "andrew wileses":
     speechOutput = "Andrew Wiles has no office or office hours on file.";
     break;
 
-    case "Wolfe":
-    case "Wolfes":
-    case "Olivia Wolfe":
-    case "Olivia Wolfes":
+    case "wolfe":
+    case "wolfes":
+    case "olivia wolfe":
+    case "olivia wolfes":
     speechOutput = "Olivia Wolfes office is in I.T.E. 325F. but has no office hours on file";
     break;
 
-    case "Yan":
-    case "Yans":
-    case "Li Yan":
-    case "Li Yans":
+    case "yan":
+    case "yans":
+    case "li yan":
+    case "li yans":
     speechOutput = "Dr. Yans office is in I.T.E. 315. but has no office hours on file";
     break;
 
-    case "Yesha":
-    case "Yeshas":
-    case "Yaacov Yesha":
-    case "Yaacov Yeshas":
+    case "yesha":
+    case "yeshas":
+    case "yaacov yesha":
+    case "yaacov yeshas":
     speechOutput = "Dr. Yaacov Yeshas office is in I.T.E. 333. but has no office hours on file";
     break;
 
-    case "Yelena Yesha":
-    case "Yelena Yeshas":
+    case "yelena yesha":
+    case "yelena yeshas":
     speechOutput = "Dr. Yelena Yeshas office is in I.T.E. 335. but has no office hours on file";
     break;
 
-    case "Younis":
-    case "Younises":
-    case "Mohamed Younis":
-    case "Mohamed Younises":
+    case "younis":
+    case "younises":
+    case "yohamed younis":
+    case "yohamed younises":
     speechOutput = "Dr. Younises office is in I.T.E. 318." +
     "Office hours are, monday and wednesday 10:30-11:30am.";
     break;
 
-    case "Zhu":
-    case "Zhus":
-    case "Ting Zhu":
-    case "Ting Zhus":
+    case "zhu":
+    case "zhus":
+    case "ting zhu":
+    case "ting zhus":
     speechOutput = "Dr. Zhus office is in I.T.E. 360." +
     "Office hours are, monday and wednesday 3:50-4:50pm.";
     break;
 
-    case "Zieglar":
-    case "Zieglars":
-    case "Edward Zieglar":
-    case "Edward Zieglars":
+    case "zieglar":
+    case "zieglars":
+    case "edward zieglar":
+    case "edward zieglars":
     speechOutput = "Edward Zieglars office hours are, tuesday and thursday 6-7pm. but has no office location on file";
     break;
  
