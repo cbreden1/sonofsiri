@@ -125,8 +125,13 @@ function getOfficeInfo(intent, session, callback) {
     var sessionAttributes = {};
     var shouldEndSession = false;
     var speechOutput = "";
+
+    // Strip professor name of non-alphabetic characters
+    var newerstr = newstr.replace( /\s+/, "+");
+    var strippedProf = professorNameSlot.value.replace( /[^a-zA-Z]/, ""); // ( ͡° ͜ʖ ͡°) quite the variable name eh?
+    var lowercaseProf = strippedProf.toLowerCase();
     
-    switch(professorNameSlot.value){
+    switch(lowercaseProf){
     case "Adali":
     case "Adalis":
     case "Tulay Adali":
