@@ -19,3 +19,7 @@ https://developer.amazon.com/edw/home.html#/skills/list
 Amazon Alexa (Skill History)
 
 http://alexa.amazon.com/#cards
+
+
+Video Tutorials
+https://www.youtube.com/playlist?list=PLTllNuxsJBpxcr-aHCJBUFlHCcZCY4gL-
