@@ -135,7 +135,7 @@ function getOfficeInfo(intent, session, callback) {
     case "adalis":
     case "tulayadali":
     case "tulayadalis":
-    speechOutput = "Dr. Adalis office is in I.T.E. 324." + 
+    speechOutput = "Dr. Adalis office is in I.T.E. 324," + 
     "Office hours are, tuesday 515-615pm.";
     break;
 
@@ -143,7 +143,7 @@ function getOfficeInfo(intent, session, callback) {
     case "ainas":
     case "yemisiaina":
     case "yemisiainas":
-    speechOutput = "Yemisi Ainas office is in I.T.E. 325 E. but has no office hours on file.";
+    speechOutput = "Yemisi Ainas office is in I.T.E. 325 E, but has no office hours on file.";
     break;
 
     case "banerjee":
@@ -157,7 +157,7 @@ function getOfficeInfo(intent, session, callback) {
     case "bargteils":
     case "adambargteil":
     case "adambargteils":
-    speechOutput = "Dr. Bargteils office is in I.T.E. 341." + 
+    speechOutput = "Dr. Bargteils office is in I.T.E. 341," + 
     "Office hours are, monday 230-430pm.";
     break;
 
@@ -193,7 +193,7 @@ function getOfficeInfo(intent, session, callback) {
 
     case "cheinichang":
     case "cheinichangs":
-    speechOutput = "Dr. Chein-i Changs office is in I.T.E. 310." +
+    speechOutput = "Dr. Chein-i Changs office is in I.T.E. 310," +
     "Office hours are, monday and wednesday 3-4pm";
     break;
 
@@ -208,7 +208,7 @@ function getOfficeInfo(intent, session, callback) {
     case "chens":
     case "jianchen":
     case "jianchens":
-    speechOutput = "Dr. Chens office is in I.T.E. 357." +
+    speechOutput = "Dr. Chens office is in I.T.E. 357," +
     "Office hours are, monday and wednesday 1:20-2:20pm.";
     break;
 
@@ -216,14 +216,14 @@ function getOfficeInfo(intent, session, callback) {
     case "chesters":
     case "bobchester":
     case "bobchesters":
-    speechOutput = "Bob Chesters office is in I.T.E. 325M. but has no office hours on file";
+    speechOutput = "Bob Chesters office is in I.T.E. 325M, but has no office hours on file";
     break;
 
     case "choa":
     case "choas":
     case "fowsenchoa":
     case "fowsenchoas":
-    speechOutput = "Dr. Choas office is in I.T.E. 303. but has no office hours on file";
+    speechOutput = "Dr. Choas office is in I.T.E. 303, but has no office hours on file";
     break;
 
     case "daguanno":
@@ -238,7 +238,7 @@ function getOfficeInfo(intent, session, callback) {
     case "desjardinses":
     case "mariedesjardins":
     case "mariedesjardinses":
-    speechOutput = "Dr. Desjardinses office is in I.T.E. 337." +
+    speechOutput = "Dr. Desjardinses office is in I.T.E. 337," +
     "Office hours are, tuesday 10-11am in the library lobby cafe," +
     "and, thursday 4-5pm in I.T.E. 217.A.";
     break;
@@ -261,35 +261,35 @@ function getOfficeInfo(intent, session, callback) {
     case "douglasses":
     case "veradouglass":
     case "veradouglasses":
-    speechOutput = "Professor Douglasses office is in I.T.E. 325K. but has no office hours on file.";
+    speechOutput = "Professor Douglasses office is in I.T.E. 325K, but has no office hours on file.";
     break;
 
     case "drummey":
     case "drummeys":
     case "deeanndrummey":
     case "deeanndrummeys":
-    speechOutput = "Dee Ann Drummeys office is in I.T.E. 325L. but has no office hours on file.";
+    speechOutput = "Dee Ann Drummeys office is in I.T.E. 325L, but has no office hours on file.";
     break;
 
     case "finin":
     case "finins":
     case "timfinin":
     case "timfinins":
-    speechOutput = "Dr. Finins office is in I.T.E. 329. but has no office hours on file.";
+    speechOutput = "Dr. Finins office is in I.T.E. 329, but has no office hours on file.";
     break;
 
     case "fliggins":
     case "fligginses":
     case "kearafliggins":
     case "kearafligginses":
-    speechOutput = "Keara Fligginses office is in I.T.E. 325I. but has no office hours on file.";
+    speechOutput = "Keara Fligginses office is in I.T.E. 325I, but has no office hours on file.";
     break;
 
     case "forno":
     case "fornos":
     case "richardforno":
     case "richardfornos":
-    speechOutput = "Dr. Fornos office is in I.T.E. 325A. but has no office hours on file.";
+    speechOutput = "Dr. Fornos office is in I.T.E. 325A, but has no office hours on file.";
     break;
 
     case "gartner":
@@ -331,7 +331,7 @@ function getOfficeInfo(intent, session, callback) {
     case "hymanwaterses":
     case "camillahymanwaters":
     case "camillahymanwaterses":
-    speechOutput = "Camilla Hyman-Waterses office is in I.T.E. 325J. but has no office hours on file.";
+    speechOutput = "Camilla Hyman-Waterses office is in I.T.E. 325J, but has no office hours on file.";
     break;
 
     case "johnson":
@@ -346,19 +346,19 @@ function getOfficeInfo(intent, session, callback) {
     case "joshis":
     case "anupamjoshi":
     case "anupamjoshis":
-    speechOutput = "Dr. Anupam Joshis office is in I.T.E. 328 and 325G. but has no office hours on file.";
+    speechOutput = "Dr. Anupam Joshis office is in I.T.E. 328 and 325G, but has no office hours on file.";
     break;
 
     case "karunajoshi":
     case "karunajoshis":
-    speechOutput = "Dr. Karuna Joshis office is in I.T.E. 372. but has no office hours on file";
+    speechOutput = "Dr. Karuna Joshis office is in I.T.E. 372, but has no office hours on file";
     break;
 
     case "kalpakis":
     case "kalpakises":
     case "kostaskalpakis":
     case "kostaskalpakises":
-    speechOutput = "Dr. Kalpakises office is in I.T.E. 348. but has no office hours on file";
+    speechOutput = "Dr. Kalpakises office is in I.T.E. 348, but has no office hours on file";
     break;
 
     case "kashyap":
@@ -372,7 +372,7 @@ function getOfficeInfo(intent, session, callback) {
     case "kims":
     case "seungjunkim":
     case "seungjunkims":
-    speechOutput = "Professor Kims office is in I.T.E. 312." +
+    speechOutput = "Professor Kims office is in I.T.E. 312," +
     "Office hours are, wednesday 5:15-6:15pm for Comp E. 320";
     break;
 
@@ -380,14 +380,14 @@ function getOfficeInfo(intent, session, callback) {
     case "kuklas":
     case "jimkukla":
     case "jimkuklas":
-    speechOutput = "Jim Kuklas office hours are, monday 7-8pm. but has no office location on file";
+    speechOutput = "Jim Kuklas office hours are, monday 7-8pm, but has no office location on file";
     break;
 
     case "laberge":
     case "laberges":
     case "charleslaberge":
     case "charleslaberges":
-    speechOutput = "Dr. Laberges office is in I.T.E. 358." +
+    speechOutput = "Dr. Laberges office is in I.T.E. 358," +
     "Office hours are, monday and wednesday 1-3:30pm," +
     "and tuesday and thursday 2:30-3:30pm."
     ;
@@ -397,7 +397,7 @@ function getOfficeInfo(intent, session, callback) {
     case "lomonacos":
     case "samlomonaco":
     case "samlomonacos":
-	speechOutput = "Dr. Lomonacos office is in I.T.E. 306." +
+	speechOutput = "Dr. Lomonacos office is in I.T.E. 306," +
     "Office hours are, tuesday and wednesday 2:15-2:45pm, and, 5:15-5:45pm";
 	break;
             
@@ -405,7 +405,7 @@ function getOfficeInfo(intent, session, callback) {
     case "lupolis":
     case "shawnlupoli":
     case "shawnlupolis":
-    speechOutput = "Professor Lupolis office is in I.T.E. 209." +
+    speechOutput = "Professor Lupoli's office is in I.T.E. 209," +
     "Office hours are, tuesday 1:30-2:30pm, wednesday 10:30am-noon," +
     "and, thursday 10-11:30am";
     break;
@@ -414,7 +414,7 @@ function getOfficeInfo(intent, session, callback) {
     case "marrons":
     case "chrismarron":
     case "chrismarrons":
-    speechOutput = "Dr. Marrons office is in I.T.E. 359." +
+    speechOutput = "Dr. Marrons office is in I.T.E. 359," +
     "Office hours are, tuesday 1-2pm, and, thursday 11:30am-12:30";
     break;
 
@@ -422,7 +422,7 @@ function getOfficeInfo(intent, session, callback) {
     case "maselkos":
     case "danmaselko":
     case "danmaselkos":
-    speechOutput = "Dan Maselkos office hours are, monday and wednesday 7-8pm. but has no office location on file";
+    speechOutput = "Dan Maselkos office hours are, monday and wednesday 7-8pm, but has no office location on file";
     break;
 
     case "matuszek":
@@ -430,7 +430,7 @@ function getOfficeInfo(intent, session, callback) {
     case "cynthiamatuszek":
     case "cynthiamatuszeks":
     case "m":
-    speechOutput = "Dr. Matuszeks office is in I.T.E. 331." +
+    speechOutput = "Dr. Matuszeks office is in I.T.E. 331," +
     "Office hours are, monday 9-10am, and, tuesday 10-11am";
     break;
 
@@ -438,21 +438,21 @@ function getOfficeInfo(intent, session, callback) {
     case "menyuks":
     case "curtismenyuk":
     case "curtismenyuks":
-    speechOutput = "Dr. Menyuks office is in I.T.E. 304. but has no office hours on file";
+    speechOutput = "Dr. Menyuks office is in I.T.E. 304, but has no office hours on file";
     break;
 
     case "mitchell":
     case "mitchells":
     case "susanmitchell":
     case "susanmitchells":
-    speechOutput = "Professor Mitchells office is in I.T.E. 214. but has no office hours on file";
+    speechOutput = "Professor Mitchells office is in I.T.E. 214, but has no office hours on file";
     break;
 
     case "mohsenin":
     case "mohsenins":
     case "tinooshmohsenin":
     case "tinooshmohsenins":
-    speechOutput = "Dr. Menyuks office is in I.T.E. 323. but has no office hours on file";
+    speechOutput = "Dr. Menyuks office is in I.T.E. 323, but has no office hours on file";
     break;
 
     case "morawski":
@@ -463,21 +463,21 @@ function getOfficeInfo(intent, session, callback) {
     case "maxes":
     case "maxmorawski":
     case "maxmorawskis":
-    speechOutput = "Max Morawskis office is in I.T.E. 215. but has no office hours on file";
+    speechOutput = "Max Morawskis office is in I.T.E. 215, but has no office hours on file";
     break;
 
     case "morris":
     case "morrises":
     case "joelmorris":
     case "joelmorrises":
-    speechOutput = "Dr. Morrises office is in I.T.E. 308. but has no office hours on file";
+    speechOutput = "Dr. Morrises office is in I.T.E. 308, but has no office hours on file";
     break;
 
     case "nicholas":
     case "nicholases":
     case "charlesnicholas":
     case "charlesnicholases":
-    speechOutput = "Dr. Nicholases office is in I.T.E. 356." +
+    speechOutput = "Dr. Nicholases office is in I.T.E. 356," +
     "Office hours are, tuesday and thursday 2-3pm";
     break;
 
@@ -494,14 +494,14 @@ function getOfficeInfo(intent, session, callback) {
     case "oateses":
     case "timoates":
     case "timoateses":
-    speechOutput = "Dr. Oates is office is in I.T.E. 336. but has no office hours on file";
+    speechOutput = "Dr. Oates is office is in I.T.E. 336, but has no office hours on file";
     break;
 
     case "olano":
     case "olanos":
     case "marcolano":
     case "marcolanos":
-    speechOutput = "Dr. Olanos office is in I.T.E. 354." +
+    speechOutput = "Dr. Olanos office is in I.T.E. 354," +
     "Office hours are, tuesday and thursday 4-5pm";
     break;
 
@@ -509,7 +509,7 @@ function getOfficeInfo(intent, session, callback) {
     case "parks":
     case "johnpark":
     case "johnparks":
-    speechOutput = "Professor Parks office is in I.T.E. 207." +
+    speechOutput = "Professor Parks office is in I.T.E. 207," +
     "Office hours are, tuesday 4-5pm, and, wednesday 2-3 pm";
     break;
 
@@ -517,21 +517,21 @@ function getOfficeInfo(intent, session, callback) {
     case "patels":
     case "chintanpatel":
     case "chintanpatels":
-    speechOutput = "Dr. Patels office is in I.T.E. 322. but has no office hours on file";
+    speechOutput = "Dr. Patels office is in I.T.E. 322, but has no office hours on file";
     break;
 
     case "pearce":
     case "pearces":
     case "claudiapearce":
     case "claudiapearces":
-    speechOutput = "Professor Pearces office is in I.T.E. 373. but has no office hours on file";
+    speechOutput = "Professor Pearces office is in I.T.E. 373, but has no office hours on file";
     break;
 
     case "peng":
     case "pengs":
     case "yunpeng":
     case "yunpengs":
-    speechOutput = "Dr. Pengs office is in I.T.E. 327. but has no office hours on file.";
+    speechOutput = "Dr. Pengs office is in I.T.E. 327, but has no office hours on file.";
     break;
 
     case "perry":
@@ -545,7 +545,7 @@ function getOfficeInfo(intent, session, callback) {
     case "phataks":
     case "dhananjayphatak":
     case "dhananjayphataks":
-    speechOutput = "Dr. Phataks office is in I.T.E. 319." +
+    speechOutput = "Dr. Phataks office is in I.T.E. 319," +
     "Office hours are, tuesday 11am to 1, and, 4-6pm for C.M.S.C. 203.";
     break;
 
@@ -553,14 +553,14 @@ function getOfficeInfo(intent, session, callback) {
     case "pinkstons":
     case "johnpinkston":
     case "johnpinkstons":
-    speechOutput = "Dr. Pinkstons office is in I.T.E. 327. but has no office hours on file.";
+    speechOutput = "Dr. Pinkstons office is in I.T.E. 327, but has no office hours on file.";
     break;
 
     case "pirsiavash":
     case "pirsiavashes":
     case "hamedpirsiavash":
     case "hamedpirsiavashes":
-    speechOutput = "Dr. Pirsiavashes office is in I.T.E. 342." +
+    speechOutput = "Dr. Pirsiavashes office is in I.T.E. 342," +
     "Office hours are, tuesday 2:15-3:15pm";
     break;
 
@@ -575,28 +575,28 @@ function getOfficeInfo(intent, session, callback) {
     case "rheinganses":
     case "rennyrheingans":
     case "pennyrheinganses":
-    speechOutput = "Dr. Rheinganses office is in I.T.E. 355. but has no office hours on file.";
+    speechOutput = "Dr. Rheinganses office is in I.T.E. 355, but has no office hours on file.";
     break;
 
     case "robucci":
     case "robuccis":
     case "ryanrobucci":
     case "ryanrobuccis":
-    speechOutput = "Dr. Robuccis office is in I.T.E. 316. but has no office hours on file.";
+    speechOutput = "Dr. Robuccis office is in I.T.E. 316, but has no office hours on file.";
     break;
 
     case "sadeghian":
     case "sadeghians":
     case "pedramsadeghian":
     case "pedramsadeghians":
-    speechOutput = "Professor Sadeghians office is in I.T.E. 208. but has no office hours on file.";
+    speechOutput = "Professor Sadeghians office is in I.T.E. 208, but has no office hours on file.";
     break;
 
     case "schmill":
     case "schmills":
     case "matthewschmill":
     case "matthewschmills":
-    speechOutput = "Professor Schmills office is in I.T.E. 350. but has no office hours on file.";
+    speechOutput = "Professor Schmills office is in I.T.E. 350, but has no office hours on file.";
     break;
 
     case "sebald":
@@ -610,7 +610,7 @@ function getOfficeInfo(intent, session, callback) {
     case "shermans":
     case "alansherman":
     case "alanshermans":
-    speechOutput = "Dr. Shermans office is in I.T.E. 224." +
+    speechOutput = "Dr. Shermans office is in I.T.E. 224," +
     "Office hours are, wednesday 9-10am.";
     break;
 
@@ -625,7 +625,7 @@ function getOfficeInfo(intent, session, callback) {
     case "sidhus":
     case "deepindersidhu":
     case "deepindersidhus":
-    speechOutput = "Dr. Sidhus office is in I.T.E. 347." +
+    speechOutput = "Dr. Sidhus office is in I.T.E. 347," +
     "Office hours are, tuesday and thursday 3:15-4pm.";
     break;
 
@@ -640,7 +640,7 @@ function getOfficeInfo(intent, session, callback) {
     case "slaughters":
     case "gymamaslaughter":
     case "gymamaslaughters":
-    speechOutput = "Dr. Slaughters office is in I.T.E. 311." +
+    speechOutput = "Dr. Slaughters office is in I.T.E. 311," +
     "Office hours are, monday and wednesday 11am to noon.";
     break;
 
@@ -662,14 +662,14 @@ function getOfficeInfo(intent, session, callback) {
     case "syeds":
     case "zareensyed":
     case "zareensyeds":
-	speechOutput = "Professor Syeds office is in I.T.E. 301. but has no office hours on file.";
+	speechOutput = "Professor Syeds office is in I.T.E. 301, but has no office hours on file.";
 	break;
 
     case "tang":
     case "tangs":
     case "jasontang":
     case "jasontangs":
-    speechOutput = "Jason Tangs office hours are, tuesday and thursday 7-8pm. but has no office location on file";
+    speechOutput = "Jason Tangs office hours are, tuesday and thursday 7-8pm, but has no office location on file";
     break;
 
     case "tompkins":
@@ -683,7 +683,7 @@ function getOfficeInfo(intent, session, callback) {
     case "weisses":
     case "geoffweiss":
     case "geoffweisses":
-    speechOutput = "Geoff Weisses office is in I.T.E. 302. but has no office hours on file";
+    speechOutput = "Geoff Weisses office is in I.T.E. 302, but has no office hours on file";
     break;
 
     case "wiles":
@@ -697,33 +697,33 @@ function getOfficeInfo(intent, session, callback) {
     case "wolfes":
     case "olivia wolfe":
     case "olivia wolfes":
-    speechOutput = "Olivia Wolfes office is in I.T.E. 325F. but has no office hours on file";
+    speechOutput = "Olivia Wolfes office is in I.T.E. 325F, but has no office hours on file";
     break;
 
     case "yan":
     case "yans":
     case "liyan":
     case "liyans":
-    speechOutput = "Dr. Yans office is in I.T.E. 315. but has no office hours on file";
+    speechOutput = "Dr. Yans office is in I.T.E. 315, but has no office hours on file";
     break;
 
     case "yesha":
     case "yeshas":
     case "yaacovyesha":
     case "yaacovyeshas":
-    speechOutput = "Dr. Yaacov Yeshas office is in I.T.E. 333. but has no office hours on file";
+    speechOutput = "Dr. Yaacov Yeshas office is in I.T.E. 333, but has no office hours on file";
     break;
 
     case "yelenayesha":
     case "yelenayeshas":
-    speechOutput = "Dr. Yelena Yeshas office is in I.T.E. 335. but has no office hours on file";
+    speechOutput = "Dr. Yelena Yeshas office is in I.T.E. 335, but has no office hours on file";
     break;
 
     case "younis":
     case "younises":
     case "yohamedyounis":
     case "yohamedyounises":
-    speechOutput = "Dr. Younises office is in I.T.E. 318." +
+    speechOutput = "Dr. Younises office is in I.T.E. 318," +
     "Office hours are, monday and wednesday 10:30-11:30am.";
     break;
 
@@ -731,7 +731,7 @@ function getOfficeInfo(intent, session, callback) {
     case "zhus":
     case "tingzhu":
     case "tingzhus":
-    speechOutput = "Dr. Zhus office is in I.T.E. 360." +
+    speechOutput = "Dr. Zhus office is in I.T.E. 360," +
     "Office hours are, monday and wednesday 3:50-4:50pm.";
     break;
 
@@ -739,7 +739,7 @@ function getOfficeInfo(intent, session, callback) {
     case "zieglars":
     case "edwardzieglar":
     case "edwardzieglars":
-    speechOutput = "Edward Zieglars office hours are, tuesday and thursday 6-7pm. but has no office location on file";
+    speechOutput = "Edward Zieglars office hours are, tuesday and thursday 6-7pm, but has no office location on file";
     break;
  
     default:
