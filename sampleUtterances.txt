@@ -19,6 +19,9 @@ OfficeInfo Where is {Professor} office located
 OfficeInfo Where is professor {Professor}
 OfficeInfo Where is doctor {Professor}
 OfficeInfo Where is {Professor}
+OfficeInfo Tell me where {Professor} is
+OfficeInfo Tell me where {Professor} is located
+OfficeInfo Tell me where I can find {Professor}
 AskQuestion Where is the {Question}
 AskQuestion How do I get to the {Question}
 AskQuestion How do I get {Question}
@@ -47,3 +50,5 @@ AskQuestion What should I do about {Question}
 AskQuestion How can I enter {Question}
 AskQuestion How can I handle {Question}
 AskQuestion I am having trouble with {Question}
+AskQuestion Tell me how to {Question}
+AskQuestion Tell me how I can {Question}
