@@ -4,24 +4,54 @@ OfficeInfo When are professor {Professor} office hours
 OfficeInfo What are doctor {Professor} office hours
 OfficeInfo What is doctor {Professor} office hours
 OfficeInfo When are doctor {Professor} office hours
+OfficeInfo When are mister {Professor} office hours
+OfficeInfo When are miss {Professor} office hours
+OfficeInfo When are misses {Professor} office hours
 OfficeInfo Professor {Professor} office hours
 OfficeInfo {Professor} office hours
 OfficeInfo Doctor {Professor} office hours
+OfficeInfo Mister {Professor} office hours
+OfficeInfo Miss {Professor} office hours
+OfficeInfo Misses {Professor} office hours
 OfficeInfo Where can I find professor {Professor}
 OfficeInfo Where can I find doctor {Professor}
 OfficeInfo Where can I find {Professor}
+OfficeInfo Where can I find mister {Professor}
+OfficeInfo Where can I find miss {Professor}
+OfficeInfo Where can I find misses {Professor}
 OfficeInfo Where is professor {Professor} office
 OfficeInfo Where is doctor {Professor} office
 OfficeInfo Where is {Professor} office
+OfficeInfo Where is mister {Professor} office
+OfficeInfo Where is miss {Professor} office
+OfficeInfo Where is misses {Professor} office
 OfficeInfo Where is professor {Professor} office located
 OfficeInfo Where is doctor {Professor} office located
 OfficeInfo Where is {Professor} office located
+OfficeInfo Where is mister {Professor} office located
+OfficeInfo Where is miss {Professor} office located
+OfficeInfo Where is misses {Professor} office located
 OfficeInfo Where is professor {Professor}
 OfficeInfo Where is doctor {Professor}
 OfficeInfo Where is {Professor}
+OfficeInfo Where is mister {Professor}
+OfficeInfo Where is miss {Professor}
+OfficeInfo Where is misses {Professor}
 OfficeInfo Tell me where {Professor} is
+OfficeInfo Tell me where doctor {Professor} is
+OfficeInfo Tell me where mister {Professor} is
+OfficeInfo Tell me where miss {Professor} is
+OfficeInfo Tell me where misses {Professor} is
 OfficeInfo Tell me where {Professor} is located
+OfficeInfo Tell me where doctor {Professor} is located
+OfficeInfo Tell me where mister {Professor} is located
+OfficeInfo Tell me where miss {Professor} is located
+OfficeInfo Tell me where misses {Professor} is located
 OfficeInfo Tell me where I can find {Professor}
+OfficeInfo Tell me where I can find doctor {Professor}
+OfficeInfo Tell me where I can find mister {Professor}
+OfficeInfo Tell me where I can find miss {Professor}
+OfficeInfo Tell me where I can find misses {Professor}
 AskQuestion Where is the {Question}
 AskQuestion How do I get to the {Question}
 AskQuestion How do I get {Question}

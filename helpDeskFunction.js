@@ -108,7 +108,7 @@ function getWelcomeResponse(callback) {
     // If we wanted to initialize the session to have some attributes we could add those here.
     var sessionAttributes = {};
     var cardTitle = "Welcome";
-    var speechOutput = "Please ask me a question such as, what are professor X's office hours";
+    var speechOutput = "Please ask me a question such as, what are Dr. Matuszek's office hours";
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
     var repromptText = "Please ask a question.";
@@ -415,7 +415,7 @@ function getOfficeInfo(intent, session, callback) {
     case "chrismarron":
     case "chrismarrons":
     speechOutput = "Dr. Marrons office is in I.T.E. 359," +
-    "Office hours are, tuesday 1-2pm, and, thursday 11:30am-12:30";
+    "Office hours are, tuesday 1-2pm, and, thursday 1130am-1230";
     break;
 
     case "maselko":
@@ -425,6 +425,7 @@ function getOfficeInfo(intent, session, callback) {
     speechOutput = "Dan Maselkos office hours are, monday and wednesday 7-8pm, but has no office location on file";
     break;
 
+    case "matoozeck":
     case "matuszek":
     case "matuszeks":
     case "cynthiamatuszek":
